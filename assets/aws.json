@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Question 1.",
+    "options": [
+      {"answer": "1", "check": true},
+      {"answer": "2", "check": false},
+      {"answer": "3", "check": false},
+      {"answer": "4", "check": true}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Question 2.",
+    "options": [
+      {"answer": "1", "check": false},
+      {"answer": "2", "check": true},
+      {"answer": "3", "check": true},
+      {"answer": "4", "check": false}
+    ]
+  }
+]
