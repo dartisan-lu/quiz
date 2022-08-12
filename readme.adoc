@@ -1,0 +1,10 @@
+# Quiz
+
+A small implementation, for certification training as example.
+
+Feel free to copy, use, extend. 
+
+
+|===
+| image:https://github.com/dartisan-lu/quiz/blob/master/images/image1.png[] | image:https://github.com/dartisan-lu/quiz/blob/master/images/image2.png[]
+|===
