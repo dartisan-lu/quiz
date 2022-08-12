@@ -19,7 +19,8 @@ class QuestionWidget extends StatelessWidget {
         margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
         child: Column(
           children: [
-            Text(quizState.question!.question),
+            Padding(padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
+          child: Text(quizState.question!.question,style: const TextStyle(fontSize: 24),softWrap: true,)),
             const AnswerListWidget(),
             ElevatedButton(
               onPressed: quizState.running ? submit : null,

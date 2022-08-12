@@ -44,7 +44,7 @@ class _AnswerOptionWidgetState extends State<AnswerOptionWidget> {
         margin: const EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
         child: Checkbox(value: isChecked, onChanged: (v) => _changeChecked(v)),
       ),
-      Text(widget.answer.answer)
+      Flexible(child: Text(widget.answer.answer, softWrap: true,))
     ]);
   }
 }

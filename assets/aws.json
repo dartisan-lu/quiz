@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "question": "Question 1.",
+    "question": "Which of the following describes the cloud design principle of scalability?",
     "options": [
-      {"answer": "1", "check": true},
-      {"answer": "2", "check": false},
-      {"answer": "3", "check": false},
-      {"answer": "4", "check": true}
+      {"answer": "The ability to automatically increase available compute resources to meet growing user demand", "check": true},
+      {"answer": "The ability to route incoming client requests between multiple application servers", "check": false},
+      {"answer": "The ability to segment physical resources into multiple virtual partitions", "check": false},
+      {"answer": "The ability to reduce production costs by spreading capital expenses across many accounts", "check": false}
     ]
   },
   {
     "id": 2,
-    "question": "Question 2.",
+    "question": "Which of the following best describes the cloud service model known as infrastructure as a service (IaaS)?",
     "options": [
-      {"answer": "1", "check": false},
-      {"answer": "2", "check": true},
-      {"answer": "3", "check": true},
-      {"answer": "4", "check": false}
+      {"answer": "End user access to software applications delivered over the internet", "check": false},
+      {"answer": "Access to a simplified interface through which customers can directly deploy their application code without having to worry about managing the underlying infrastructure", "check": false},
+      {"answer": "Customer rental of the use of measured units of a provider’s physical compute, storage, and networking resources", "check": true},
+      {"answer": "Abstracted interfaces built to manage clusters of containerized workloads", "check": false}
     ]
   }
 ]
