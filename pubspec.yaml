@@ -24,4 +24,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/aws.json
+    - assets/aws_demo1.json
+    - assets/aws_demo2.json

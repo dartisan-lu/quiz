@@ -44,10 +44,27 @@ class QuizState extends ChangeNotifier {
   }
 
   void initQuiz(List<Question> questions) {
+    // Init Values
+    pos = 0;
+    running = true;
+    validating = false;
+    buttonTitle = 'Submit';
+    points = 0;
+    // Init Questions
     this.questions = questions;
     this.questions.shuffle();
     question = questions.first;
     question!.options.shuffle();
     notifyListeners();
   }
+}
+
+class QuizSelectorState extends ChangeNotifier {
+  Quiz quizSelector = quizList.first;
+
+  void nextQuiz(Quiz quiz) {
+      quizSelector = quiz;
+      notifyListeners();
+      return;
+    }
 }

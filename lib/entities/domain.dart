@@ -28,3 +28,15 @@ class Question {
     }
   }
 }
+
+class Quiz {
+  String asset;
+  String description;
+
+  Quiz(this.asset, this.description);
+}
+
+var quizList = [
+  Quiz('assets/aws_demo1.json', 'Demo 1'),
+  Quiz('assets/aws_demo2.json', 'Demo 2'),
+];

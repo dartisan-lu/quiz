@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "How does AWS ensure that no single customer consumes an unsustainable proportion of available resources?",
+    "options": [
+      {"answer": "AWS allows customers to consume as much as they’re willing to pay for, regardless of general availability.", "check": false},
+      {"answer": "AWS imposes default limits on the use of its service resources but allows customers to request higher limits.", "check": true},
+      {"answer": "AWS imposes hard default limits on the use of its service resources.", "check": false},
+      {"answer": "AWS imposes default limits on the use of its services by Basic account holders; Premium account holders face no limits.", "check": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "The AWS Free Tier is designed to give new account holders the opportunity to get to know how their services work without necessarily costing any money. How does it work?",
+    "options": [
+      {"answer": "You get service credits that can be used to provision and launch a few typical workloads.", "check": false},
+      {"answer": "You get full free access to a few core AWS services for one month.", "check": false},
+      {"answer": "You get low-cost access to many core AWS services for three months.", "check": false},
+      {"answer": "You get free lightweight access to many core AWS services for a full 12 months.", "check": true}
+    ]
+  }
+]

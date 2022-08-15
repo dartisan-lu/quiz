@@ -12,8 +12,10 @@ class ProviderContextApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => QuizState(),
+    return  MultiProvider(providers: [
+          ChangeNotifierProvider(create: (context) => QuizState()),
+          ChangeNotifierProvider(create: (context) => QuizSelectorState()),
+    ],
       child: const QuizApp(),
     );
   }
