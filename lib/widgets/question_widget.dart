@@ -27,7 +27,7 @@ class QuestionWidget extends StatelessWidget {
               child: Text(quizState.buttonTitle),
             ),
             Text(
-                'Points: ${quizState.points} / ${quizState.questions.length} (${(quizState.points / quizState.questions.length * 100).ceil()}%)')
+                'Question: ${quizState.pos + 1} / ${quizState.questions.length}   (Points: ${quizState.points}  |  ${(quizState.points / quizState.questions.length * 100).ceil()}%)')
           ],
         ),
       );

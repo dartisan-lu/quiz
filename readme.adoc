@@ -4,6 +4,13 @@ A small implementation, for certification training as example.
 
 Feel free to copy, use, extend. 
 
+For new questions:
+
+1. Add new JSON file under /assets
+
+2. Declare asset in the pubspec.yaml
+
+3. Add it in the /entities/domain.dart file in the quizList.
 
 |===
 | image:https://github.com/dartisan-lu/quiz/blob/master/images/image1.png[] | image:https://github.com/dartisan-lu/quiz/blob/master/images/image2.png[]
